@@ -106,7 +106,7 @@ model{
 #Model Organization
 ####################################################
 model_jags<-jags.model(textConnection(model_string),
-                       data=list('y' = y, 
+                       data=list('y' = y_sim, 
                                  'pi' = pi,
                                  'x' = x, 
                                  'p_x' = p_x,
