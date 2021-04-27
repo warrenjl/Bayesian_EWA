@@ -160,3 +160,4 @@ summary(posterior_samples)
 ################################
 effectiveSize(posterior_samples)
 geweke.diag(posterior_samples)
+
